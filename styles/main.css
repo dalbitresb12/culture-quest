@@ -1,0 +1,42 @@
+:root {
+  --bs-body-font-family: 'Roboto Slab', var(--bs-font-sans-serif);
+}
+
+.font-titles {
+  font-family: 'Roboto Condensed', var(--bs-font-sans-serif);
+}
+
+.py-10 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.z-0 {
+  z-index: 0;
+}
+
+.z-20 {
+  z-index: 20;
+}
+
+.filter-greyscale {
+  filter: grayscale(1);
+}
+
+.w-1\/2 {
+  width: 50%;
+}
+
+@media (min-width: 768px) {
+  .md\:w-1\/4 {
+    width: 25%;
+  }
+}
+
+#hero {
+  padding: 14rem 1.5rem;
+  background-image: linear-gradient(black, black), url('../img/datingscout-Yqy65hqHrRw-unsplash-large.jpg');
+  background-size: cover;
+  background-blend-mode: saturation;
+  color: #ffffff;
+}
